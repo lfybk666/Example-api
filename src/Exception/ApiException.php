@@ -1,8 +1,8 @@
 <?php
 
-namespace Danil\Api\Exception;
+namespace Lfybk666\Api\Exception;
 
-use Danil\Api\Client\ApiError;
+use Lfybk666\Api\Client\ApiError;
 
 class ApiException extends BaseException
 {

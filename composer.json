@@ -1,16 +1,16 @@
 {
-    "name": "danil/api",
+    "name": "lfybk666/api",
     "description": "Example api",
     "type": "library",
     "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
-            "Danil\\Api\\": "src/"
+            "Lfybk666\\Api\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "d.sheptalin",
+            "name": "Danil Sheptalin",
             "email": "danil-sheptalin@mail.ru"
         }
     ],

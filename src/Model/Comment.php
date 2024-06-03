@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Model;
+namespace Lfybk666\Api\Model;
 
-use Danil\Api\Client\Model\BaseEntity;
+use Lfybk666\Api\Client\Model\BaseEntity;
 
 class Comment extends BaseEntity
 {

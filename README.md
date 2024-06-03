@@ -11,7 +11,7 @@ PHP library for Example API interaction, includes Auth authorization and API met
 The Example Api can be installed using Composer by running the following command:
 
 ```sh
-composer require danil/api
+composer require lfybk666/api
 ```
 
 ## 3. Initialization
@@ -19,7 +19,7 @@ composer require danil/api
 Create ApiClient object using the following code:
 
 ```php
-$api = new \Danil\Api\Client\ApiClient();
+$api = new \Lfybk666\Api\Client\ApiClient();
 ```
 
 ## 4. Authorization
@@ -33,13 +33,13 @@ Auth Authorization Code Flow allows calling methods from the server side.
 Create `Auth` object first:
 
 ```php
-$auth = new \Danil\Api\Auth\Auth();
+$auth = new \Lfybk666\Api\Auth\Auth();
 ```
 
 #### 4.1.1. For getting **user access key** use following command:
 
 ```php
-$auth = new \Danil\Api\Auth\Auth();
+$auth = new \Lfybk666\Api\Auth\Auth();
 $accessToken = $auth->getAccessToken('example_api_key');
 ```
 

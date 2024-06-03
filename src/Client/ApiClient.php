@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Client;
+namespace Lfybk666\Api\Client;
 
-use Danil\Api\Client\Action\ActionInterface;
-use Danil\Api\Exception\ClientException;
+use Lfybk666\Api\Client\Action\ActionInterface;
+use Lfybk666\Api\Exception\ClientException;
 
 /**
- * @method \Danil\Api\Action\Comments comments()
+ * @method \Lfybk666\Api\Action\Comments comments()
  */
 class ApiClient
 {
@@ -31,7 +31,7 @@ class ApiClient
     {
         $name = strtolower($name);
 
-        $class = '\\Danil\\Api\\Actions\\' . ucfirst($name);
+        $class = '\\Lfybk666\\Api\\Actions\\' . ucfirst($name);
         if (!class_exists($class)) {
             throw new ClientException("Class {$class} not found");
         }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Danil\Api\Exception\Api;
+namespace Lfybk666\Api\Exception\Api;
 
-use Danil\Api\Client\ApiError;
-use Danil\Api\Exception\ApiException;
+use Lfybk666\Api\Client\ApiError;
+use Lfybk666\Api\Exception\ApiException;
 
 class ExceptionMapper
 {

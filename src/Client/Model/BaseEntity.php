@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Client\Model;
+namespace Lfybk666\Api\Client\Model;
 
 class BaseEntity
 {

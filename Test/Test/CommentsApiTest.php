@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace Test;
 
-use Danil\Api\Client\ApiClient;
-use Danil\Api\Model\Comment;
-use Danil\Api\Auth\Auth;
+use Lfybk666\Api\Client\ApiClient;
+use Lfybk666\Api\Model\Comment;
+use Lfybk666\Api\Auth\Auth;
 use PHPUnit\Framework\TestCase;
 
 class CommentsApiTest extends TestCase

@@ -1,9 +1,9 @@
 <?php
 
-namespace Danil\Api\Auth;
+namespace Lfybk666\Api\Auth;
 
-use Danil\Api\Exception\ClientException;
-use Danil\Api\Exception\AuthException;
+use Lfybk666\Api\Exception\ClientException;
+use Lfybk666\Api\Exception\AuthException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Client\ClientInterface;

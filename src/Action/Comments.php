@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Action;
+namespace Lfybk666\Api\Action;
 
-use Danil\Api\Client\Action\ActionInterface;
-use Danil\Api\Client\ApiRequest;
-use Danil\Api\Model\Comment;
+use Lfybk666\Api\Client\Action\ActionInterface;
+use Lfybk666\Api\Client\ApiRequest;
+use Lfybk666\Api\Model\Comment;
 
 class Comments implements ActionInterface
 {

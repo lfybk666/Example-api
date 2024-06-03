@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Client\Action;
+namespace Lfybk666\Api\Client\Action;
 
-use Danil\Api\Client\ApiRequest;
+use Lfybk666\Api\Client\ApiRequest;
 
 interface ActionInterface
 {

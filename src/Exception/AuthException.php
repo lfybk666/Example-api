@@ -1,6 +1,6 @@
 <?php
 
-namespace Danil\Api\Exception;
+namespace Lfybk666\Api\Exception;
 
 class AuthException extends BaseException
 {

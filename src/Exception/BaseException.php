@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Exception;
+namespace Lfybk666\Api\Exception;
 
 use Exception;
 

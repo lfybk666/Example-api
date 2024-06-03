@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Danil\Api\Client;
+namespace Lfybk666\Api\Client;
 
-use Danil\Api\Client\Model\BaseEntity;
-use Danil\Api\Exception\Api\ExceptionMapper;
-use Danil\Api\Exception\ClientException;
+use Lfybk666\Api\Client\Model\BaseEntity;
+use Lfybk666\Api\Exception\Api\ExceptionMapper;
+use Lfybk666\Api\Exception\ClientException;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;

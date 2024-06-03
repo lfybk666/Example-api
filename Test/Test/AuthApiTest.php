@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Test;
 
-use Danil\Api\Auth\Auth;
+use Lfybk666\Api\Auth\Auth;
 use PHPUnit\Framework\TestCase;
 
 class AuthApiTest extends TestCase
